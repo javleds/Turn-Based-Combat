@@ -1,6 +1,6 @@
 extends Resource
 
-export(String) var name = "Enemy"
-export(Texture) var texture = null
-export(int) var health = 30
-export(int) var damage = 20
+@export var name: String = "Enemy"
+@export var texture: Texture2D = null
+@export var health: int = 30
+@export var damage: int = 20
